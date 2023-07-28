@@ -25,7 +25,6 @@ const Page = () => {
 			>
 				Hello, I&apos;m a noob developer!!
 			</Box>
-
 			<Box display={{ md: "flex" }}>
 				<Box flexGrow={2}>
 					<Heading as="h2" variant="page-title">
@@ -81,9 +80,26 @@ const Page = () => {
 					Bio
 				</Heading>
 				<BioSection>
-					<BioYear>1984</BioYear>
-					Born in the USA
+					<BioYear>1982</BioYear>
+					Born in Urupan, Mexico
 				</BioSection>
+				<BioSection>
+					<BioYear> 2006 </BioYear>
+					Graduated from the Electronics Engineering faculty at Instituto
+					Tecnológico de Morelia.
+				</BioSection>
+			</Section>
+			<Section delay={0.3}>
+				<Heading as="h3" variant="section-title">
+					Recent Publications
+				</Heading>
+				<Paragraph>
+					Determination of distal temperature using infrared thermography in
+					Mexican children with diabetes.{" "}
+					<Link href="https://www.tandfonline.com/doi/abs/10.1080/17686733.2023.2236856?journalCode=tqrt20">
+						PDF
+					</Link>
+				</Paragraph>
 			</Section>
 		</Container>
 	);
