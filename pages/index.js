@@ -6,6 +6,10 @@ import {
 	Heading,
 	Image,
 	Link,
+	SimpleGrid,
+	List,
+	ListItem,
+	Icon,
 	useColorModeValue,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
@@ -13,6 +17,8 @@ import Section from "../components/section.js";
 import Paragraph from "../components/paragraph.js";
 import { BioSection, BioYear } from "../components/bio.js";
 import Layout from "../components/layouts/article.js";
+import { GridItem } from "../components/grid-item.js";
+import { IoLogoTwitter, IoLogoGithub, IoLogoDiscor } from "react-icons/io5";
 
 const Page = () => {
 	return (
@@ -132,6 +138,24 @@ const Page = () => {
 							PDF
 						</Link>
 					</Paragraph>
+				</Section>
+				<Section delay={0.35}>
+					<Heading as="h3" variant="section-title">
+						On the social media
+						<List>
+							<ListItem>
+								<Link href="https://github.com/gmarxcc" target="_blank">
+									<Button
+										variant="ghost"
+										colorScheme="teal"
+										leftIcon={<Icon as={IoLogoGithub} />}
+									>
+										@gmarxcc
+									</Button>
+								</Link>
+							</ListItem>
+						</List>
+					</Heading>
 				</Section>
 			</Container>
 		</Layout>
