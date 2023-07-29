@@ -67,7 +67,7 @@ const Navbar = (props) => {
 					width={{ base: "full", md: "auto" }}
 					alignItems="center"
 					flexGrow={1}
-					mt={{ base: 4, nmd: 0 }}
+					mt={{ base: 8, nmd: 0 }}
 				>
 					<LinkItem href="/works" path={path}>
 						Works
