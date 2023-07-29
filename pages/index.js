@@ -67,8 +67,8 @@ const Page = () => {
 						Affiliation
 					</Heading>
 					<Paragraph>
-						Gerardo Marx is a Lecturer professor at the “
-						<emph>Instituto Tecnológico de Morelia</emph>, ITM.” He is part of
+						Gerardo Marx is a Lecturer professor at the 
+						<emph>Instituto Tecnológico de Morelia</emph>, ITM. He is part of
 						the postgraduate and research department focused on system
 						identification and embedded system applications. His leading
 						research is applied to metals and materials, chemical reaction
@@ -104,12 +104,12 @@ const Page = () => {
 					</BioSection>
 					<BioSection>
 						<BioYear>2010</BioYear>
-						Head of research and development at "Grupo Dipralight SA de CV"
+						Head of research and development at Grupo Dipralight SA de CV
 						developing LED-Lamps and their power supplies
 					</BioSection>
 					<BioSection>
 						<BioYear>2013</BioYear>
-						Head of the "Departamento de Ingeniería Eléctrica-Electrónica" at
+						Head of the Departamento de Ingeniería Eléctrica-Electrónica at
 						the ITM
 					</BioSection>
 					<BioSection>
