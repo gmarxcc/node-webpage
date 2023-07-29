@@ -142,20 +142,20 @@ const Page = () => {
 				<Section delay={0.35}>
 					<Heading as="h3" variant="section-title">
 						On the social media
-						<List>
-							<ListItem>
-								<Link href="https://github.com/gmarxcc" target="_blank">
-									<Button
-										variant="ghost"
-										colorScheme="teal"
-										leftIcon={<Icon as={IoLogoGithub} />}
-									>
-										@gmarxcc
-									</Button>
-								</Link>
-							</ListItem>
-						</List>
 					</Heading>
+					<List>
+						<ListItem>
+							<Link href="https://github.com/gmarxcc" target="_blank">
+								<Button
+									variant="ghost"
+									colorScheme="teal"
+									leftIcon={<Icon as={IoLogoGithub} />}
+								>
+									@gmarxcc
+								</Button>
+							</Link>
+						</ListItem>
+					</List>
 				</Section>
 			</Container>
 		</Layout>
