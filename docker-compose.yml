@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node-gmarxcc
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+
