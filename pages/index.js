@@ -41,7 +41,7 @@ const Page = () => {
 						</Heading>
 						<Paragraph>
 							{" "}
-							About me ( Engineer | Scientist | Professor )
+							About me ( Engineer | Scientist | Professor | Developer )
 						</Paragraph>
 					</Box>
 					<Box
